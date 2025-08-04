@@ -40,7 +40,7 @@ zword* huntdark_ram_addrs(int *n) {
 
 char** huntdark_intro_actions(int *n) {
   *n = 2;
-  return huntdark_intro;
+  return (char **)huntdark_intro;
 }
 
 char* huntdark_clean_observation(char* obs) {

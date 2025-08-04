@@ -32,7 +32,7 @@ const zword weapon_special_ram_addrs[3] = {
 
 zword* weapon_ram_addrs(int *n) {
     *n = 3;
-    return weapon_special_ram_addrs;
+    return (zword *)weapon_special_ram_addrs;
 }
 
 char** weapon_intro_actions(int *n) {

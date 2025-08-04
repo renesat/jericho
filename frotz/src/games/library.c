@@ -33,7 +33,7 @@ zword* library_ram_addrs(int *n) {
 
 char** library_intro_actions(int *n) {
   *n = 1;
-  return library_intro;
+  return (char **)library_intro;
 }
 
 char* library_clean_observation(char* obs) {

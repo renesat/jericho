@@ -46,7 +46,7 @@ const zword spirit_special_ram_addrs[17] = {
 
 zword* spirit_ram_addrs(int *n) {
     *n = 17;
-    return spirit_special_ram_addrs;
+    return (zword *)spirit_special_ram_addrs;
 }
 
 char** spirit_intro_actions(int *n) {

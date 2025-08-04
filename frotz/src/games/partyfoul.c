@@ -34,7 +34,7 @@ zword* partyfoul_ram_addrs(int *n) {
 
 char** partyfoul_intro_actions(int *n) {
   *n = 2;
-  return partyfoul_intro;
+  return (char **)partyfoul_intro;
 }
 
 char* partyfoul_clean_observation(char* obs) {

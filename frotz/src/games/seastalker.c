@@ -32,12 +32,12 @@ const zword seastalker_special_ram_addrs[1] = {
 
 zword* seastalker_ram_addrs(int *n) {
     *n = 1;
-    return seastalker_ram_addrs;
+    return (zword*)seastalker_ram_addrs;
 }
 
 char** seastalker_intro_actions(int *n) {
   *n = 3;
-  return seastalker_intro;
+  return (char **)seastalker_intro;
 }
 
 char* seastalker_clean_observation(char* obs) {

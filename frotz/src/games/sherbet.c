@@ -33,7 +33,7 @@ zword* sherbet_ram_addrs(int *n) {
 
 char** sherbet_intro_actions(int *n) {
   *n = 1;
-  return sherbet_intro;
+  return (char **)sherbet_intro;
 }
 
 char* sherbet_clean_observation(char* obs) {

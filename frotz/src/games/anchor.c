@@ -40,7 +40,7 @@ zword* anchor_ram_addrs(int *n) {
 
 char** anchor_intro_actions(int *n) {
   *n = 3;
-  return anchor_intro;
+  return (char**)anchor_intro;
 }
 
 char* anchor_clean_observation(char* obs) {

@@ -33,7 +33,7 @@ zword* trinity_ram_addrs(int *n) {
 
 char** trinity_intro_actions(int *n) {
   *n = 1;
-  return trinity_intro;
+  return (char **)trinity_intro;
 }
 
 char* trinity_clean_observation(char* obs) {

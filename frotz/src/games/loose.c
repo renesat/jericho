@@ -33,7 +33,7 @@ zword* loose_ram_addrs(int *n) {
 
 char** loose_intro_actions(int *n) {
   *n = 1;
-  return loose_intro;
+  return (char **)loose_intro;
 }
 
 char* loose_clean_observation(char* obs) {

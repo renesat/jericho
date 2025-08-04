@@ -46,7 +46,7 @@ zword* lurking_ram_addrs(int *n) {
 
 char** lurking_intro_actions(int *n) {
   *n = 4;
-  return lurking_intro;
+  return (char **)lurking_intro;
 }
 
 char* lurking_clean_observation(char* obs) {

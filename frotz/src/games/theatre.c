@@ -38,7 +38,7 @@ zword* theatre_ram_addrs(int *n) {
 
 char** theatre_intro_actions(int *n) {
   *n = 1;
-  return theatre_intro;
+  return (char **)theatre_intro;
 }
 
 char* theatre_clean_observation(char* obs) {

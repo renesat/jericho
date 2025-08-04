@@ -33,12 +33,12 @@ const zword snacktime_special_ram_addrs[2] = {
 
 zword* snacktime_ram_addrs(int *n) {
     *n = 2;
-    return snacktime_special_ram_addrs;
+    return (zword *)snacktime_special_ram_addrs;
 }
 
 char** snacktime_intro_actions(int *n) {
   *n = 1;
-  return snacktime_intro;
+  return (char **)snacktime_intro;
 }
 
 char* snacktime_clean_observation(char* obs) {

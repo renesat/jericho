@@ -45,7 +45,7 @@ zword* curses_ram_addrs(int *n) {
 
 char** curses_intro_actions(int *n) {
   *n = 1;
-  return curses_intro;
+  return (char **)curses_intro;
 }
 
 char* curses_clean_observation(char* obs) {

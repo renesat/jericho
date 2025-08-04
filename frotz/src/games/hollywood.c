@@ -43,7 +43,7 @@ zword* hollywood_ram_addrs(int *n) {
 
 char** hollywood_intro_actions(int *n) {
   *n = 3;
-  return hollywood_intro;
+  return (char **)hollywood_intro;
 }
 
 char* hollywood_clean_observation(char* obs) {

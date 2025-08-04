@@ -33,7 +33,7 @@ zword* jewel_ram_addrs(int *n) {
 
 char** jewel_intro_actions(int *n) {
   *n = 2;
-  return jewel_intro;
+  return (char **)jewel_intro;
 }
 
 char* jewel_clean_observation(char* obs) {

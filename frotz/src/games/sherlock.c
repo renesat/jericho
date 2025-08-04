@@ -33,7 +33,7 @@ zword* sherlock_ram_addrs(int *n) {
 
 char** sherlock_intro_actions(int *n) {
   *n = 1;
-  return sherlock_intro;
+  return (char **)sherlock_intro;
 }
 
 char* sherlock_clean_observation(char* obs) {

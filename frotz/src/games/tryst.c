@@ -49,12 +49,12 @@ const char *tryst_intro[] = { "\n" };
 
 zword* tryst_ram_addrs(int *n) {
     *n = 18;
-    return tryst_special_ram_addrs;
+    return (zword *)tryst_special_ram_addrs;
 }
 
 char** tryst_intro_actions(int *n) {
   *n = 1;
-  return tryst_intro;
+  return (char **)tryst_intro;
 }
 
 char* tryst_clean_observation(char* obs) {
